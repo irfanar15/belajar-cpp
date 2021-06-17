@@ -5,5 +5,10 @@ int main(){
 	int total;
 	total = satu + satu;
 	cout<<total;
+
+	//contoh looping
+	// for(int i = 0; i < 10; i++){
+	// 	cout<<"hellowww\n";
+	// }
 }
 
