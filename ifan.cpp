@@ -6,6 +6,9 @@ int main(){
 	total=ucup+ucup+ucup;
 	cout<<total<<endl;
 	cout<<total;
+
+	// tambahin banyak lagi variabel
+	// masih lupa
 }
 	
 
