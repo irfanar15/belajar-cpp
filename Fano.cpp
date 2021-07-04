@@ -1,8 +1,12 @@
 #include <iostream>
 using namespace std;
 int main(){
-    string ucil="ucil ugly sama dengan ";
-    int ucup=5;
-    int ucok=5;
-    cout<<ucil<<ucup*ucok;
+    int ucok;
+    int ucil;
+    cout<<"mau di isi berapa anka pertama ? ";
+    cin>>ucok;
+    cout<<"mau di isi berapa angka kedua ? ";
+    cin>>ucil;
+    cout<<"is jawaban dari angka ke satu dan kedua adalah "<<ucok*ucil;
 }
+    
