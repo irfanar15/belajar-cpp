@@ -1,12 +1,24 @@
 #include <iostream>
-using namespace  std;
+using namespace std;
 int main(){
-    string guru;
-    cout<<"siapa nama guru tersebut? ";
-    cin>>guru;
-    if(guru =="gandi"){
-        cout<<"nama guru tersebut bernama gandi";
+    int A;
+    int S;
+    int D;
+    int F;
+    int total;
+    cout<<"A = ";
+    cin>>A;
+    cout<<"S = ";
+    cin>>S;
+    cout<<"D = ";
+    cin>>D;
+    cout<<"F = ";
+    cin>>F;
+    total=(A+S)*(D+F);
+    if(total >= 50){
+        cout<<"gandi eek\n";
     }else{
-        cout<<"salah nama guru tersebut adalah gandi";
+        cout<<"gandi bau\n";
     }
+    cout<<"hasil sama dengan = "<<total<<"\n";
 }
