@@ -2,45 +2,62 @@
 using namespace std;
 int main(){
     int Pilihan;
-    int perhitungan;
-    int perhitungan2;
-    cout<<"===Perhitungan===\n";
-    cout<<"1 = Perkalian\n";
-    cout<<"2 = Pembagian\n";
-    cout<<"3 = Pertambahan\n";
-    cout<<"4 = Perkurangan\n";
-    cout<<"5 = Keluar\n";
-    cout<<"Pilih yang mana? (gunakan angka sebagai pemilihan)\n";
+    cout<<"===KucingMenu===\n";
+    cout<<"1 = Ucup\n";
+    cout<<"2 = Ucil\n";
+    cout<<"3 = Tom\n";
+    cout<<"4 = exit\n";
     cin>>Pilihan;
     if(Pilihan == 1){
-        cout<<"Anda memilih Perkalian\n";
-        cout<<"Tulis angka yang ingin kamu hitung = \n";
-        cin>>perhitungan;
-        cout<<"angka ke 2 = \n";
-        cin>>perhitungan2;
-        cout<<perhitungan*perhitungan2;
-    }else if(Pilihan == 2){
-        cout<<"Anda memilih Pembagian\n";
-        cout<<"Tulis angka yang ingin kamu hitung = \n";
-        cin>>perhitungan;
-        cout<<"angka ke 2 = \n";
-        cin>>perhitungan2;
-        cout<<perhitungan/perhitungan2;
-    }else if(Pilihan == 3){
-        cout<<"Anda memilih Pertambahan\n";
-        cout<<"Tulis angka yang ingin kamu hitung = \n";
-        cin>>perhitungan;
-        cout<<"angka ke 2 = \n";
-        cin>>perhitungan2;
-        cout<<perhitungan+perhitungan2;
-    }else if(Pilihan == 4){
-        cout<<"Anda memilih Pengurangan\n";
-        cout<<"Tulis angka yang ingin kamu hitung = \n";
-        cin>>perhitungan;
-        cout<<"angka ke 2 = \n";
-        cin>>perhitungan2;
-        cout<<perhitungan-perhitungan2;
-    }else{  
-        cout<<"anda memilih keluar \n";
+        cout<<"===Ucup===\n";
+        cout<<"1 = Warna Mata\n";
+        cout<<"2 = Warna Bulu\n";
+        cout<<"3 = Ekor\n";
+        cout<<"4 = Exit\n";
+        cin>>Pilihan;
+        if(Pilihan == 1){
+            cout<<"Biru\n";
+        }else if(Pilihan == 2){
+            cout<<"Putih Abu Abu\n";
+        }else if(Pilihan == 3){
+            cout<<"Kecil Sekali Seperti Pacman\n";
+        }else{
+            cout<<"Exit\n";
+            }
+    }
+
+    else if(Pilihan == 2){
+        cout<<"===Ucil===\n";
+        cout<<"1 = Warna Mata\n";
+        cout<<"2 = Warna Bulu\n";
+        cout<<"3 = Ekor\n";
+        cout<<"4 = Exit\n";
+        cin>>Pilihan;
+        if(Pilihan == 1){
+            cout<<"Biru\n";
+        }else if(Pilihan == 2){
+            cout<<"Putih Abu Abu\n";
+        }else if(Pilihan == 3){
+            cout<<"Panjang sering berdiri";
+        }else{
+            cout<<"Exit\n";
+            }
+    }
+    else if(Pilihan == 3){
+        cout<<"===Tom===\n";
+        cout<<"1 = Warna Mata\n";
+        cout<<"2 = Warna Bulu\n";
+        cout<<"3 = Ekor\n";
+        cout<<"4 = Exit\n";
+        cin>>Pilihan;
+        if(Pilihan == 1){
+            cout<<"Emas\n";
+        }else if(Pilihan == 2){
+            cout<<"Kuning agak oren\n";
+        }else if(Pilihan == 3){
+            cout<<"panjang agak tebel\n";
+        }else{
+            cout<<"Exit\n";
+            }
     }
 }
