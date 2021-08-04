@@ -2,62 +2,67 @@
 using namespace std;
 int main(){
     int Pilihan;
-    cout<<"===KucingMenu===\n";
+    a:
+    cout<<"===Menu===\n";
     cout<<"1 = Ucup\n";
     cout<<"2 = Ucil\n";
     cout<<"3 = Tom\n";
-    cout<<"4 = exit\n";
+    cout<<"4 = Exit\n";
     cin>>Pilihan;
     if(Pilihan == 1){
         cout<<"===Ucup===\n";
-        cout<<"1 = Warna Mata\n";
-        cout<<"2 = Warna Bulu\n";
-        cout<<"3 = Ekor\n";
-        cout<<"4 = Exit\n";
+        cout<<"1 = Ekor\n";
+        cout<<"2 = Mata\n";
+        cout<<"3 = Bulu\n";
+        cout<<"4 = Berat\n";
         cin>>Pilihan;
         if(Pilihan == 1){
-            cout<<"Biru\n";
+            cout<<"Kecil bentuk pacman\n";
         }else if(Pilihan == 2){
-            cout<<"Putih Abu Abu\n";
+            cout<<"Biru\n";
         }else if(Pilihan == 3){
-            cout<<"Kecil Sekali Seperti Pacman\n";
-        }else{
-            cout<<"Exit\n";
-            }
-    }
-
-    else if(Pilihan == 2){
+            cout<<"Putih Abu-Abu\n";
+        }else {
+            cout<<"4,5 kg\n";
+        }
+    }else if(Pilihan == 2){
         cout<<"===Ucil===\n";
-        cout<<"1 = Warna Mata\n";
-        cout<<"2 = Warna Bulu\n";
-        cout<<"3 = Ekor\n";
-        cout<<"4 = Exit\n";
+        cout<<"1 = Ekor\n";
+        cout<<"2 = Mata\n";
+        cout<<"3 = Bulu\n";
+        cout<<"4 = Berat\n";
         cin>>Pilihan;
         if(Pilihan == 1){
+            cout<<"Panjang Tinggi\n";
+        }else if(Pilihan == 2){
             cout<<"Biru\n";
-        }else if(Pilihan == 2){
-            cout<<"Putih Abu Abu\n";
         }else if(Pilihan == 3){
-            cout<<"Panjang sering berdiri";
+            cout<<"Putih Abu-Abu\n";
         }else{
-            cout<<"Exit\n";
-            }
-    }
-    else if(Pilihan == 3){
+            cout<<"4 kg\n";
+        }
+    }else if(Pilihan == 3){
         cout<<"===Tom===\n";
-        cout<<"1 = Warna Mata\n";
-        cout<<"2 = Warna Bulu\n";
-        cout<<"3 = Ekor\n";
-        cout<<"4 = Exit\n";
+        cout<<"1 = Ekor\n";
+        cout<<"2 = Mata\n";
+        cout<<"3 = Bulu\n";
+        cout<<"4 = Berat\n";
         cin>>Pilihan;
         if(Pilihan == 1){
-            cout<<"Emas\n";
+            cout<<"Panjang Berbulu\n";
         }else if(Pilihan == 2){
-            cout<<"Kuning agak oren\n";
+            cout<<"Emas\n";
         }else if(Pilihan == 3){
-            cout<<"panjang agak tebel\n";
+            cout<<"Kuning agak oren\n";
         }else{
-            cout<<"Exit\n";
-            }
+            cout<<"3,5 kg\n";
+        }
+    }else{
+        cout<<"Keluar";
+    }
+    cout<<"\nmau balik atau tidak?";
+    cin>>Pilihan;
+    if(Pilihan == 1){
+        goto a;
     }
 }
