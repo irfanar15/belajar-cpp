@@ -1,68 +1,33 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int Pilih;
-    A:
-    cout<<"===Menu===\n";
-    cout<<"1 = Tong\n";
-    cout<<"2 = Ucup\n";
-    cout<<"3 = Ucil\n";
-    cout<<"4 = Exit\n";
-    cin>>Pilih;
-    if(Pilih ==1){
-        cout<<"===Tong===\n";
-        cout<<"1 = Mata\n";
-        cout<<"2 = Bulu\n";
-        cout<<"3 = Sikap\n";
-        cin>>Pilih;
-        if(Pilih == 1){
-            cout<<"Emas\n";
+    // int day = 2;
+    // switch(day){
+    //     case 1:
+    //     cout<<"ohhhh  1 ya";
+    //     break;
+
+    //     case 2:
+    //     cout<<"ohhh 2 ya";
+    //     break;
+
+    //     default:
+    //     cout<<"what the fuck else";
+    //     break;
+    // }
+
+    int ucup = 7934643;
+        switch(ucup){
+            case 1:
+            cout<<"ucil bau";
+            break;
+
+            case 5:
+            cout<<"babi";
+            break;
+
+            default:
+            cout<<"hanu sapi";
+            break;
         }
-        else if(Pilih == 2){
-            cout<<"Kuning\n";
-        }
-        else if(Pilih == 3){
-            cout<<"Malas\n";
-        }
-    }
-    else if(Pilih == 2){
-        cout<<"===Ucup===\n";
-        cout<<"1 = Mata\n";
-        cout<<"2 = Bulu\n";
-        cout<<"3 = Sikap\n";
-        cin>>Pilih;
-        if(Pilih == 1){
-            cout<<"Biru\n";
-        }
-        else if(Pilih == 2){
-            cout<<"Abu-Abu Putih\n";
-        }
-        else if(Pilih == 3){
-            cout<<"Bacot\n";
-        }
-    }
-    else if(Pilih == 3){
-        cout<<"===Ucil===\n";
-        cout<<"1 = Mata\n";
-        cout<<"2 = Bulu\n";
-        cout<<"3 = Sikap\n";
-        cin>>Pilih;
-        if(Pilih == 1){
-            cout<<"Biru\n";
-        }
-        else if(Pilih == 2){
-            cout<<"Abu-Abu Putih\n";
-        }
-        else if(Pilih == 3){
-            cout<<"Bacot,Adventure Time\n";
-        }
-    }
-    else{
-        cout<<"Exit\n";
-    }
-    cout<<"jika ingin balik gunakan = 1 / 2 untuk end\n";
-    cin>>Pilih;
-    if(Pilih == 1){
-        goto A;
-    }
-}
+} 
