@@ -1,131 +1,102 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int Pilih,A,B; 
-    k:
-    cout<<"===Menu===\n";
-    cout<<"1 = Calculator\n";
-    cout<<"2 = KucingMenu\n";
-    cout<<"any keys = Exit\n";
-    cin>>Pilih;
+    Z:
+    int Pilih,Pilihan;
+    int A,B;
+        cout<<"===Menu===\n";
+        cout<<"1 = Calculator\n";
+        cout<<"2 = laptop\n";
+        cout<<"Any Keys = Exit\n";
+        cin>>Pilih;
     switch(Pilih){
         case 1:
             cout<<"===Calculator===\n";
             cout<<"1 = Pertambahan\n";
-            cout<<"2 = Perkalian\n";
-            cout<<"3 = Pengurangan\n";
+            cout<<"2 = Pengurangan\n";
+            cout<<"3 = Perkalian\n";
             cout<<"4 = Pembagian\n";
-            cout<<"5 = Exit\n";
-            cin>>Pilih;
-            switch(Pilih){
-                case 1:
-                    cout<<"===Pertambahan===\nAngka 1 = ";
+            cin>>Pilihan;
+        switch(Pilihan){
+            case 1:
+                    cout<<"===Pertambahan===\n = ";
                     cin>>A;
                     cout<<"\nAngka 2 = ";
                     cin>>B;
                     cout<<A+B;
-                break;
+            break;
 
-                case 2:
-                    cout<<"===Perkalian===\nAngka 1 = ";
-                    cin>>A;
-                    cout<<"\nAngka 2 = ";
-                    cin>>B;
-                    cout<<A*B;
-                break;
-
-                case 3:
-                    cout<<"===Pengurangan===\nAngka 1 = ";
+            case 2:
+                    cout<<"===Pengurangan===\n = ";
                     cin>>A;
                     cout<<"\nAngka 2 = ";
                     cin>>B;
                     cout<<A-B;
-                break;
+            break;
 
-                case 4:
-                    cout<<"===Pembagian===\nAngka 1 = ";
+            case 3:
+                    cout<<"===Perkalian===\n = ";
                     cin>>A;
                     cout<<"\nAngka 2 = ";
                     cin>>B;
-                    cout<<A/B;
-                break;
-                
-                default:
-                    cout<<"LOL";
-                    break;
-                
-            }
+                    cout<<A*B;
+            break;
+
+            case 4:
+                cout<<"===Pembagian===\n = ";
+                cin>>A;
+                cout<<"\nAngka 2 = ";
+                cin>>B;
+                cout<<A/B;
+            break;
+        }
         break;
-        
         case 2:
-            cout<<"===Menu===\n";
-            cout<<"1 = Ucil\n";
-            cout<<"2 = Ucup\n";
-            cout<<"3 = Tom\n";
-            cin>>Pilih;
+                cout<<"===Laptop===\n";
+                cout<<"1 = Laptop Raihan\n";
+                cout<<"2 = Laptop Irfan\n";
+                cin>>Pilih;
             switch(Pilih){
                 case 1:
-                cout<<"===Ucil===\n";
-                cout<<"1 = Mata\n";
-                cout<<"2 = Warna Bulu\n";
-                cin>>Pilih;
+                    cout<<"===LaptopRaihan===\n";
+                    cout<<"1 = Ram\n";
+                    cout<<"2 = Rom\n";
+                    cin>>Pilih;
                 switch(Pilih){
                     case 1:
-                    cout<<"Biru\n";
+                        cout<<"4gb\n";
                     break;
+
                     case 2:
-                    cout<<"Abu-Abu Putih\n";
-                    break;
-                    default:
-                    cout<<"LOL";
+                        cout<<"256gb\n";
                     break;
                 }
                 break;
 
                 case 2:
-                cout<<"===Ucup===\n";
-                cout<<"1 = Mata\n";
-                cout<<"2 = Warna Bulu\n";
-                cin>>Pilih;
-                switch(Pilih){
-                    case 1:
-                    cout<<"Biru\n";
-                    break;
-                    case 2:
-                    cout<<"Abu-Abu Putih\n";
-                    break;
-                    default:
-                    cout<<"LOL";
-                    break;
-                }
-                break;
+                    cout<<"===LaptopIrfan===\n";
+                    cout<<"1 = Ram\n";
+                    cout<<"2 = Rom\n";
+                    cin>>Pilih;
+                    switch(Pilih){
+                        case 1:
+                            cout<<"2gb\n";
+                        break;
 
-                case 3:
-                cout<<"===Tom===\n";
-                cout<<"1 = Mata\n";
-                cout<<"2 = Warna Bulu\n";
-                cin>>Pilih;
-                switch(Pilih){
-                    case 1:
-                    cout<<"Emas\n";
-                    break;
-                    case 2:
-                    cout<<"Kuning\n";
-                    break;
-                }
-                
-                default:
-                    cout<<"LOL\n";
-                    break;
-
-                }   
-            }
-            cout<<"\nBack = 1 \n";
-            cin>>Pilih;
-            switch(Pilih){
-                case 1:
-                goto k;
+                        case 2:
+                            cout<<"512gb\n";
+                        break;
+                    }
                 break;
             }
+    break;
 
+    }
+        cout<<"\nBack = 1 / Any Keys = End Browse \n";
+        cin>>Pilih;
+        switch(Pilih){
+            case 1:
+            goto Z;
+            break;
         }
+}
