@@ -1,8 +1,12 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int Hehe;
-    for(int Hehe = 999; Hehe > 20; Hehe--){
-        cout<<Hehe<<"Hanu\n";
-    }
+    int angkaA,angkaB;
+    cout<<"Mulai dari mana = ";
+    cin>>angkaA;
+    cout<<"Sampe mana = ";
+    cin>>angkaB;
+    for(int just = angkaA; just < angkaB; just++){
+        cout<<just<<"ok\n";
+    } 
 }
